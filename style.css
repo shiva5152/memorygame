@@ -1,0 +1,27 @@
+body {
+  background-image: url("images/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: center center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(18, 55, 141);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h3{
+  display:inline-block;
+  background-color: rgb(27, 61, 61);
+  padding: 20px 20px;
+  font-size: 28px;
+  color: rgb(235, 232, 42);
+}
